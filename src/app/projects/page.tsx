@@ -1,11 +1,10 @@
 import Image from 'next/image'
 import ReactNativeLogo from '../../assets/react-native.svg'
-import ReactLogo from '../../assets/react.svg'
 import NodeLogo from '../../assets/nodejs-icon.svg'
 import TypescriptLogo from '../../assets/typescript.svg'
 import TailwindLogo from '../../assets/tailwind-css.svg'
 import GymGif from '../../assets/gif.gif'
-import Navbar from '@/components/navbar'
+import Navbar from '../../components/Navbar'
 import Link from 'next/link'
 
 export default function ProjectsPage() {

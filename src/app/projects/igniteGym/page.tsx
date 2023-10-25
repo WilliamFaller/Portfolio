@@ -4,7 +4,7 @@ import NodeLogo from '../../../assets/nodejs-icon.svg'
 import TypescriptLogo from '../../../assets/typescript.svg'
 import TailwindLogo from '../../../assets/tailwind-css.svg'
 import GymGif from '../../../assets/gif.gif'
-import Navbar from '@/components/navbar'
+import Navbar from '../../../components/Navbar'
 
 export default function ProjectsPage() {
   return (

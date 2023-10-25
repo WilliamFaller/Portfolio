@@ -1,4 +1,4 @@
-import Navbar from "@/components/navbar";
+import Navbar from "../../components/Navbar";
 import Link from "next/link";
 import JavascriptLogo from '../../assets/javascript.svg'
 import NodeLogo from '../../assets/nodejs-icon.svg'
