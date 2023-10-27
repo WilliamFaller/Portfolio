@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col md:flex-row p-8">
             <div className="min-w-['200px']">
-              <div className="flex flex-row gap-12">
+              <div className="flex flex-col md:flex-row gap-12">
                 <div>
                   <h2 className="font-bold text-2xl mb-4 text-violet-400">Formação</h2>
                   <p className="font-semibold mb-4 min-w-[20rem] max-w-[0rem]">Graduado em Análise e Desenvolvimento de Sistemas pela Faculdade Eniac em Julho de 2023, durante 2022 realizei diversos cursos pela plataforma da Alura e agora 2023 estou realizando os cursos da plataformada RocketSeat.</p>

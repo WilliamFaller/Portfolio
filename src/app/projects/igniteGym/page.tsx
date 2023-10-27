@@ -5,13 +5,14 @@ import TypescriptLogo from '../../../assets/typescript.svg'
 import TailwindLogo from '../../../assets/tailwind-css.svg'
 import GymGif from '../../../assets/gif.gif'
 import Navbar from '../../../components/Navbar'
+import Link from 'next/link'
 
 export default function ProjectsPage() {
   return (
     <>
       <Navbar />
       <div className="p-5 mt-4">
-        <h1 className="text-5xl text-violet-400">/Projetos/igniteGym</h1>
+        <h1 className="md:text-5xl text-3xl text-violet-400"><Link href={"../projects"}><span className="hover:underline">/Projetos</span></Link>/igniteGym</h1>
       </div>
       <div className="flex flex-col md:flex-row">
         <div className="flex flex-col md:flex-row p-8 ">
@@ -23,7 +24,7 @@ export default function ProjectsPage() {
             <p className="font-semibold mb-4">Neste projeto proposto pela Rocketseat, como forma de aprimorar o meu aprendizado, tive a oportunidade de trabalhar com diversas tecnologias.</p>
             <p className="font-semibold mb-4">Ele consiste em um app para o controle de treinos de musculação, os exercícios ficam separados por grupos musculares, la você pode visualizar os diversos exercicios para cada grupo, marcar como concluído e visualizar o histórico de treinos realizados.</p>
             <p className="font-semibold mb-4">Meu maior desafio neste projeto foi fazer a integração com o backend, listando os grupos, exercícios e as demais informações, o login foi feito utilizando Token JWT para controle de sessão</p>
-            <div className="flex flex-row">
+            <div className="flex flex-row mb-4">
               <Image className="w-10 mr-4" src={ReactNativeLogo} alt="React Native Logo" />
               <Image className="w-10 mr-4" src={TypescriptLogo} alt="React Native Logo" />
               <Image className="w-10 mr-4" src={NodeLogo} alt="React Native Logo" />

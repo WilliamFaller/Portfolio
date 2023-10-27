@@ -23,7 +23,7 @@ export default function ProjectsPage() {
           </div>
           <div className="max-w-sm">
             <Link href={'./projects/igniteGym'}>
-              <h1 className="font-bold text-2xl mb-4">Ignite Gym</h1>
+              <h1 className="font-bold text-2xl mb-4 text-violet-400 hover:underline">Ignite Gym</h1>
             </Link>
             <p className="font-semibold mb-4">Como entusiasta de programação e do mundo da musculação, mergulhei recentemente em um projeto pessoal que representa a convergência desses dois assuntos, o Ignite Gym. Este aplicativo, construído como parte do meu aprendizado contínuo, visa não apenas melhorar a experiência na academia, mas também aprimorar minhas habilidades no desenvolvimento mobile.</p>
             <div className="flex flex-row">
