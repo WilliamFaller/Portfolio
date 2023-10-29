@@ -26,6 +26,10 @@ export default function ProjectsPage() {
               <h1 className="font-bold text-2xl mb-4 text-violet-400 hover:underline">Ignite Gym</h1>
             </Link>
             <p className="font-semibold mb-4">Como entusiasta de programação e do mundo da musculação, mergulhei recentemente em um projeto pessoal que representa a convergência desses dois assuntos, o Ignite Gym. Este aplicativo, construído como parte do meu aprendizado contínuo, visa não apenas melhorar a experiência na academia, mas também aprimorar minhas habilidades no desenvolvimento mobile.</p>
+            <div className="flex flex-row gap-8 mb-4">
+              <Link href={'./projects/igniteGym'}><button className="flex border-2 p-2 rounded-2xl text-violet-400 border-violet-400 hover:text-violet-500 hover:border-violet-500">Ver Mais</button></Link>
+              <Link target='_blank' rel='noopener noreferrer' href={'https://github.com/WilliamFaller/IgniteGym'}><button className="flex border-2 p-2 rounded-2xl text-violet-400 border-violet-400 hover:text-violet-500 hover:border-violet-500">Github</button></Link>
+            </div>
             <div className="flex flex-row">
               <Image className="w-10 mr-4" src={ReactNativeLogo} alt="React Native Logo" />
               <Image className="w-10 mr-4" src={TypescriptLogo} alt="React Native Logo" />
