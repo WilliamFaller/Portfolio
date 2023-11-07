@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 export default function ProjectsPage() {
   return (
-    <>rrrr
+    <>
       <Navbar />
       <div className="p-5 mt-4">
         <h1 className="md:text-5xl text-3xl text-violet-400"><Link href={"../projects"}><span className="hover:underline">/Projetos</span></Link>/igniteGym</h1>
